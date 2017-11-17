@@ -17,7 +17,8 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 
 ## How to use
 1. Import the .tox
-2. Add a folder containing photos and/or videos in the images *Folder* parameter.
+2. Connect a `TOP` to the `InputTOP` to set the resolution
+3. Add a folder containing photos and/or videos in the *Images/Videos Folder* parameter.
    - If the folder exists and there's videos or images in it, the other parameters will be enabled
    
 
