@@ -22,7 +22,7 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 
 ## Parameters
 | Parameter                     | Description |
-| ---                           | -------------------------------------------- |
+| ---------                     | -------------------------------------------- |
 | Active                        | Start the slideshow's timer  |
 | Reset                         | Reload all the content   |
 |||
