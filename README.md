@@ -6,10 +6,10 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 ## Features
 - Works with videos and images
 - Preloads images to minimize impact on the application
-- Bar showing the progression of the loading process
 - Choice of 5 types of transition
-- Automatically adds new media added to your slideshow folder
+- Automatically adds new content added to your slideshow folder
 - Slave mode that enables you to link multiple slideshow together 
+- Bar in the UI shows the progression of the loading process
 
 ## Before using
 - Make sure there's no special character in the path or file name. If so, you'll get an error and the loading will get stuck in the UI.
