@@ -27,6 +27,7 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 | Reset                         | Reload all the content   |
 
  **Important! Changes will take effect when you Reset the slideshow**
+ 
 | Parameter                     | Description |
 | ---                           | -------------------------------------------- |
 | Randomize Order               | Randomize the order of folder's content.|
