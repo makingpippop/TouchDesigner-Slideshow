@@ -22,31 +22,37 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 
 ## Parameters
 | Parameter                     | Description |
-| :---                           | -------------------------------------------- |
+| ---                           | -------------------------------------------- |
 | `Active`                        | Start the slideshow's timer  |
 | `Reset`                         | Reload all the content   |
 |||
+|||
+| **Important!**|**Changes will take effect when you Reset the slideshow**|
 | `Randomize Order`               | Randomize the order of folder's content.|
 | `Seed`                          | Seed of the random  |  
 | `Multiply RGB by Alpha`         | Activate the Multiply RGB by Alpha parameter from the *MovieFileInTOP* that loads the content | 
 | `Image Fit`                   | Control how the content fits the input TOP  | 
-| **Important!**|**Changes will take effect when you Reset the slideshow**|
+|||
 |||
 | `Images/Videos Folder`          | Path of the folder containing photos and/or videos | 
+|||
 |||
 | `Display Length`                | How long the content is displayed (sec)  | 
 | `Transition Speed`              | How long for the transition to complete (sec)  | 
 | `Transition Style`              | What kind of transition (None, L to R, R to L, T to B, B to T)  | 
 | `Next`                          | Go to next content, This will automatically disable the *Active* parameter, the speed of the retrigger is based on the speed of the transition  | 
 | `Prev`                          | Go to previous content, This will automatically disable the *Active* parameter, the speed of the retrigger is based on the speed of the transition  | 
-|||                       
+|||
+|||
 | `Over TOP`                      | Path of a TOP you want to place on top of the slideshow  | 
 | `Fit`                           | Controls how this TOP fits in the resolution of the slideshow (controlled by the input TOP)  | 
 | `Translate`                     | Position of the Over TOP  | 
 | `Scale`                         | Scale of the Over TOP  | 
 |||
+|||
 | `Use Video Duration`            | If the current content is a video. Bypass the *Display Length* and uses the length of the video instead  | 
 | `When Video's Done`             | Choose what happen when the video is done playing.<br />Start timer : Start the slideshow timer for the duration of the *Display Length* Parameter.<br />Trigger Next : Automatically trigger the animation and go to the next content  | 
+|||
 |||
 | `Slave Mode`                    | Use this slideshow as a Slave. If so, everything except the *Transition Style*, *Over TOP*, will be controlled by the specified Master.  |
 | `Master Slideshow`              | Path of the slideshow you want to use as Master. A message will appear if the path is valid.  |
