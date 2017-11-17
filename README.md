@@ -16,28 +16,43 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 
 ## How to use
 1. Import the .tox
-2. Add a folder containing photos or videos in the images *Folder* parameter.
+2. Add a folder containing photos and/or videos in the images *Folder* parameter.
    - If the folder exists and there's videos or images in it, the other parameters will be enabled
    
 
 ## Parameters
 | Parameter                     | Description |
-| ---                           | --- |
-| Active                        | Content Cell  |
-| Reset                         | Content Cell  |
+| ---                           | -------------------------------------------- |
+| Active                        | Start the slideshow's timer  |
+| Reset                         | Reload all the content   |
 |           |   |
-| Randomize Order               | Content Cell  |
-| Seed                          | Content Cell  |  
-| Multiply RGB by Alpha         | Content Cell  | 
-| Image Fit                     | Content Cell  | 
+| **Important!**                | **Those changes will only apply when you Reset the slideshow**|
+| Randomize Order               | Randomize the order of folder's content.|
+| Seed                          | Seed of the random  |  
+| Multiply RGB by Alpha         | Activate the Multiply RGB by Alpha parameter from the *MovieFileInTOP* that loads the content | 
+| Image Fit                     | Control how the content fits the input TOP  | 
+| **----------**                | **-----------------------------------------------------------**|
 |           |   |
-| Images/Videos Folder          | Content Cell  | 
+| Images/Videos Folder          | Path of the folder containing photos and/or videos | 
 |           |   |
-| Display Length                | Content Cell  | 
-| Images/Videos Folder          | Content Cell  | 
-| Images/Videos Folder          | Content Cell  | 
-| Images/Videos Folder          | Content Cell  | 
-| Images/Videos Folder          | Content Cell  | 
+| Display Length                | How long the content is displayed (sec)  | 
+| Transition Speed              | How long for the transition to complete (sec)  | 
+| Transition Style              | What kind of transition (None, L to R, R to L, T to B, B to T)  | 
+| Next                          | Go to next content, This will automatically disable the *Active* parameter, the speed of the retrigger is based on the speed of the transition  | 
+| Prev                          | Go to previous content, This will automatically disable the *Active* parameter, the speed of the retrigger is based on the speed of the transition  | 
+|           |   |
+| Over TOP                      | Path of a TOP you want to place on top of the slideshow  | 
+| Fit                           | Controls how this TOP fits in the resolution of the slideshow (controlled by the input TOP)  | 
+| Translate                     | Position of the Over TOP  | 
+| Scale                         | Scale of the Over TOP  | 
+|           |   |
+| Use Video Duration            | If the current content is a video. Bypass the *Display Length* and uses the length of the video instead  | 
+| When Video's Done             | Choose what happen when the video is done playing.<br />Start timer : Start the slideshow timer for the duration of the *Display Length* Parameter.<br />Trigger Next : Automatically trigger the animation and go to the next content  | 
+|           |   |
+| Slave Mode                    | Use this slideshow as a Slave. If so, everything except the *Transition Style*, *Over TOP*, will be controlled by the specified Master.  |
+| Master Slideshow              | Path of the slideshow you want to use as Master. A message will appear if the path is valid.  |
 
 ## To do
 - Remove media from the slideshow if he is removed from the slideshow folder
+- Add a preview module that gives you the possibility to see what's coming next and go to that content.
+- Change the communcation method between the UI and the Custom Parameters
