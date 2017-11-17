@@ -1,4 +1,5 @@
 # TouchDesigner099-Slideshow
+###### Tested and Developped on Windows 10 64-Bit Build 2017-30400
 
 This is a slideshow I've created to accommodates my needs in my various TouchDesigner projects.
 
