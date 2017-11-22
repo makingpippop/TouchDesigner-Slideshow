@@ -64,3 +64,4 @@ This is a slideshow I've created to accommodates my needs in my various TouchDes
 - Remove media from the slideshow if he is removed from the slideshow folder
 - Add a preview module that gives you the possibility to see what's coming next and go to that content.
 - Change the communcation method between the UI and the Custom Parameters
+- Fix a small black flash when the animation mode is set to None and we transition from a video to another video
