@@ -1,4 +1,10 @@
+**#### CURRENTLY WORKING ON A FIX FOR THE NEWEST VERSION OF TD ####**
+
+In their new spring 2019 release :  `CHOP Execute DAT` now execute earlier in the frame, trying to do their operations before other nodes that rely on their scripts cook. 
+This update interfere with my module which preload all images in a `Cache TOP`.
+
 # TouchDesigner099-Slideshow
+
 ###### Tested and Developped on Windows 10 64-Bit Build 2017-14620
 
 This is a slideshow I've created to accommodates my needs in my various TouchDesigner projects.
